@@ -909,14 +909,3 @@ d) `crypto key generate rsa`
 3. **`ip ssh version 2`** (optional, forces SSHv2)
 4. **`line vty 0 4` → `transport input ssh`** (restrict to SSH only)
 
----
-
-## QUICK REFERENCE TABLES
-
-### Cable Types Quick Guide
-| Distance | Cable Type | Max Speed |
-|----------|------------|-----------|
-| 0-100m | Cat5e/6 UTP | 1Gbps |
-| 0-500m | Coaxial | 10Mbps-1Gbps |
-| 0-2km | Multimode Fiber | 10Gbps+ |
-| 0-40km+ | Single-mode Fiber | 
