@@ -42,11 +42,30 @@ b) Broadcast=2, Collision=5
 c) Broadcast=2, Collision=6  
 d) Broadcast=3, Collision=5  
 
-**Correct Answer:** b) Broadcast=2, Collision=5  
-**Explanation:**  
-- **Collision Domains:** Hub creates 1 domain (PC1,PC3,Hub), SW1-SW2 link=1, SW2-Router=1, Router-SW3=1, SW3-PC2=1, SW3-PC4=1 = **6 total**
-- Wait, let me recalculate: Hub side=1, SW1 port to SW2=1, SW2 port to Router=1, Router port to SW3=1, SW3 port to PC2=1 = **5 collision domains**
-- **Broadcast Domains:** Left of router=1, Right of router=1 = **2 broadcast domains**
+**Correct Answer:**c) Broadcast=2, Collision=6
+
+**Explanation:**
+
+* **Collision Domains:**
+
+  * Hub creates 1 shared domain (**PC1, PC3, Hub, SW1 port**)
+  * SW1–SW2 link = 1
+  * SW2–Router = 1
+  * SW2–PC4 = 1 ✅ *(was missing in your recalculation)*
+  * Router–SW3 = 1
+  * SW3–PC2 = 1
+    → **Total = 6 collision domains**
+
+* **Broadcast Domains:**
+
+  * Left of router = 1
+  * Right of router = 1
+    → **Total = 2 broadcast domains**
+
+### ✅ Final Answer:
+
+**Broadcast = 2, Collision = 6** ✔️ (Option **c**)
+
 
 ---
 
