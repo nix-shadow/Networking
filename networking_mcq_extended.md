@@ -51,7 +51,7 @@ Correct Answer:c) Broadcast=2, Collision=6
   * Hub creates 1 shared domain (**PC1, PC3, Hub, SW1 port**)
   * SW1–SW2 link = 1
   * SW2–Router = 1
-  * SW2–PC4 = 1 ✅ *(was missing in your recalculation)*
+  * SW2–PC4 = 1 
   * Router–SW3 = 1
   * SW3–PC2 = 1
     → **Total = 6 collision domains**
