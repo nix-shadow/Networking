@@ -42,7 +42,7 @@ b) Broadcast=2, Collision=5
 c) Broadcast=2, Collision=6  
 d) Broadcast=3, Collision=5  
 
-**Correct Answer:**c) Broadcast=2, Collision=6
+Correct Answer:c) Broadcast=2, Collision=6
 
 **Explanation:**
 
